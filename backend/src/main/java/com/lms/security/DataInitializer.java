@@ -32,52 +32,35 @@ public class DataInitializer implements CommandLineRunner {
     @Override
     @Transactional
     public void run(String... args) throws Exception {
-        System.out.println("Checking database state...");
+        // Create 100 Members for Load Testing
+        for (int i = 1; i <= 100; i++) {
+            String username = "member" + i;
+            if (!userRepository.findByUsername(username).isPresent()) {
+                User user = new User();
+                user.setUsername(username);
+                user.setPassword(passwordEncoder.encode("password123"));
+                user.setRole("ROLE_MEMBER");
+                userRepository.save(user);
 
-        // Create Librarian if not exists
-        if (!userRepository.findByUsername("librarian").isPresent()) {
-            User librarianUser = new User();
-            librarianUser.setUsername("librarian");
-            librarianUser.setPassword(passwordEncoder.encode("password123"));
-            librarianUser.setRole("ROLE_LIBRARIAN");
-            userRepository.save(librarianUser);
-
-            Member librarianMember = new Member();
-            librarianMember.setFirstName("Admin");
-            librarianMember.setLastName("User");
-            librarianMember.setEmail("admin@lms.com");
-            librarianMember.setUser(librarianUser);
-            memberRepository.save(librarianMember);
-            System.out.println("Created librarian user.");
+                Member member = new Member();
+                member.setFirstName("Member");
+                member.setLastName(String.valueOf(i));
+                member.setEmail(username + "@lms.com");
+                member.setUser(user);
+                memberRepository.save(member);
+            }
         }
 
-        // Create Member if not exists
-        if (!userRepository.findByUsername("member1").isPresent()) {
-            User member1User = new User();
-            member1User.setUsername("member1");
-            member1User.setPassword(passwordEncoder.encode("password123"));
-            member1User.setRole("ROLE_MEMBER");
-            userRepository.save(member1User);
-
-            Member member1 = new Member();
-            member1.setFirstName("John");
-            member1.setLastName("Doe");
-            member1.setEmail("john@example.com");
-            member1.setUser(member1User);
-            memberRepository.save(member1);
-            System.out.println("Created member1 user.");
+        // Create 100 Books for Load Testing
+        for (int i = 1; i <= 100; i++) {
+            String title = "Test Book " + i;
+            String isbn = "ISBN-" + i;
+            saveBookIfNotExists(title, "Test Author", isbn, "Test Category");
         }
-
-        // Create Books if they don't exist (checking by ISBN)
-        saveBookIfNotExists("The Great Gatsby", "F. Scott Fitzgerald", "9780743273565", "Classic");
-        saveBookIfNotExists("1984", "George Orwell", "9780451524935", "Dystopian");
-        saveBookIfNotExists("To Kill a Mockingbird", "Harper Lee", "9780061120084", "Classic");
-        saveBookIfNotExists("The Hobbit", "J.R.R. Tolkien", "9780547928227", "Fantasy");
-        saveBookIfNotExists("Animal Farm", "George Orwell", "9780451526342", "Satire");
 
         System.out.println("==============================================");
-        System.out.println("LMS INITIALIZATION READY");
-        System.out.println("Login: librarian / password123");
+        System.out.println("LMS INITIALIZATION READY: 100 USERS & 100 BOOKS SEEDED");
+        System.out.println("Login: member1 / password123");
         System.out.println("==============================================");
     }
 

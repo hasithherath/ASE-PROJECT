@@ -1,0 +1,151 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1777181995258,293,Step 1: Login,200,,LMS User Thread Group 1-4,text,true,,672,233,5,5,http://localhost:8080/api/auth/login,292,0,1
+1777181995057,494,Step 1: Login,200,,LMS User Thread Group 1-3,text,true,,672,233,5,5,http://localhost:8080/api/auth/login,493,0,1
+1777181994860,691,Step 1: Login,200,,LMS User Thread Group 1-2,text,true,,672,233,5,5,http://localhost:8080/api/auth/login,690,0,2
+1777181994795,756,Step 1: Login,200,,LMS User Thread Group 1-1,text,true,,672,233,5,5,http://localhost:8080/api/auth/login,755,0,34
+1777181995456,177,Step 1: Login,200,,LMS User Thread Group 1-5,text,true,,672,233,5,5,http://localhost:8080/api/auth/login,177,0,2
+1777181995619,221,Step 3: Borrow Book,200,,LMS User Thread Group 1-2,text,true,,861,391,6,6,http://localhost:8080/api/borrow/2?memberId=2,221,0,0
+1777181995634,206,Step 3: Borrow Book,200,,LMS User Thread Group 1-5,text,true,,861,391,6,6,http://localhost:8080/api/borrow/5?memberId=5,206,0,0
+1777181995619,222,Step 3: Borrow Book,200,,LMS User Thread Group 1-4,text,true,,861,391,6,6,http://localhost:8080/api/borrow/4?memberId=4,221,0,0
+1777181995619,222,Step 3: Borrow Book,200,,LMS User Thread Group 1-1,text,true,,861,391,6,6,http://localhost:8080/api/borrow/1?memberId=1,221,0,0
+1777181995619,222,Step 3: Borrow Book,200,,LMS User Thread Group 1-3,text,true,,861,391,6,6,http://localhost:8080/api/borrow/3?memberId=3,222,0,0
+1777181995842,24,Step 4: Verify Member,200,,LMS User Thread Group 1-5,text,true,,634,361,7,7,http://localhost:8080/api/members/5,24,0,0
+1777181995843,24,Step 4: Verify Member,200,,LMS User Thread Group 1-2,text,true,,634,361,7,7,http://localhost:8080/api/members/2,23,0,0
+1777181995653,214,Step 1: Login,200,,LMS User Thread Group 1-6,text,true,,672,233,7,7,http://localhost:8080/api/auth/login,213,0,4
+1777181995842,24,Step 4: Verify Member,200,,LMS User Thread Group 1-3,text,true,,634,361,7,7,http://localhost:8080/api/members/3,24,0,0
+1777181995842,25,Step 4: Verify Member,200,,LMS User Thread Group 1-4,text,true,,634,361,7,7,http://localhost:8080/api/members/4,24,0,0
+1777181995842,25,Step 4: Verify Member,200,,LMS User Thread Group 1-1,text,true,,634,361,7,7,http://localhost:8080/api/members/1,24,0,0
+1777181995868,28,Step 3: Borrow Book,200,,LMS User Thread Group 1-6,text,true,,861,391,2,2,http://localhost:8080/api/borrow/6?memberId=6,28,0,0
+1777181995898,30,Step 4: Verify Member,200,,LMS User Thread Group 1-6,text,true,,634,361,2,2,http://localhost:8080/api/members/6,30,0,0
+1777181995866,170,Step 1: Login,200,,LMS User Thread Group 1-7,text,true,,672,233,1,1,http://localhost:8080/api/auth/login,170,0,2
+1777181996038,33,Step 3: Borrow Book,200,,LMS User Thread Group 1-7,text,true,,861,391,2,2,http://localhost:8080/api/borrow/7?memberId=7,33,0,0
+1777181996072,20,Step 4: Verify Member,200,,LMS User Thread Group 1-7,text,true,,634,361,2,2,http://localhost:8080/api/members/7,19,0,0
+1777181996050,142,Step 1: Login,200,,LMS User Thread Group 1-8,text,true,,672,233,1,1,http://localhost:8080/api/auth/login,141,0,2
+1777181996193,25,Step 3: Borrow Book,200,,LMS User Thread Group 1-8,text,true,,861,391,1,1,http://localhost:8080/api/borrow/8?memberId=8,25,0,0
+1777181996219,18,Step 4: Verify Member,200,,LMS User Thread Group 1-8,text,true,,634,361,1,1,http://localhost:8080/api/members/8,17,0,0
+1777181996256,156,Step 1: Login,200,,LMS User Thread Group 1-9,text,true,,672,233,1,1,http://localhost:8080/api/auth/login,156,0,2
+1777181996413,35,Step 3: Borrow Book,200,,LMS User Thread Group 1-9,text,true,,861,391,1,1,http://localhost:8080/api/borrow/9?memberId=9,34,0,0
+1777181996449,18,Step 4: Verify Member,200,,LMS User Thread Group 1-9,text,true,,634,361,2,2,http://localhost:8080/api/members/9,18,0,0
+1777181996454,154,Step 1: Login,200,,LMS User Thread Group 1-10,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,153,0,2
+1777181996609,30,Step 3: Borrow Book,200,,LMS User Thread Group 1-10,text,true,,870,395,1,1,http://localhost:8080/api/borrow/10?memberId=10,29,0,0
+1777181996639,18,Step 4: Verify Member,200,,LMS User Thread Group 1-10,text,true,,639,364,2,2,http://localhost:8080/api/members/10,18,0,0
+1777181996657,151,Step 1: Login,200,,LMS User Thread Group 1-11,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,150,0,1
+1777181996809,25,Step 3: Borrow Book,200,,LMS User Thread Group 1-11,text,true,,870,395,1,1,http://localhost:8080/api/borrow/11?memberId=11,25,0,0
+1777181996836,18,Step 4: Verify Member,200,,LMS User Thread Group 1-11,text,true,,639,364,1,1,http://localhost:8080/api/members/11,17,0,0
+1777181996860,162,Step 1: Login,200,,LMS User Thread Group 1-12,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,162,0,2
+1777181997023,26,Step 3: Borrow Book,200,,LMS User Thread Group 1-12,text,true,,870,395,1,1,http://localhost:8080/api/borrow/12?memberId=12,25,0,0
+1777181997050,20,Step 4: Verify Member,200,,LMS User Thread Group 1-12,text,true,,639,364,2,2,http://localhost:8080/api/members/12,20,0,0
+1777181997062,154,Step 1: Login,200,,LMS User Thread Group 1-13,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,154,0,1
+1777181997218,25,Step 3: Borrow Book,200,,LMS User Thread Group 1-13,text,true,,870,395,1,1,http://localhost:8080/api/borrow/13?memberId=13,25,0,0
+1777181997244,31,Step 4: Verify Member,200,,LMS User Thread Group 1-13,text,true,,639,364,2,2,http://localhost:8080/api/members/13,31,0,0
+1777181997251,172,Step 1: Login,200,,LMS User Thread Group 1-14,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,171,0,3
+1777181997424,26,Step 3: Borrow Book,200,,LMS User Thread Group 1-14,text,true,,870,395,1,1,http://localhost:8080/api/borrow/14?memberId=14,26,0,0
+1777181997451,57,Step 4: Verify Member,200,,LMS User Thread Group 1-14,text,true,,639,364,2,2,http://localhost:8080/api/members/14,57,0,0
+1777181997455,192,Step 1: Login,200,,LMS User Thread Group 1-15,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,192,0,2
+1777181997649,29,Step 3: Borrow Book,200,,LMS User Thread Group 1-15,text,true,,870,395,2,2,http://localhost:8080/api/borrow/15?memberId=15,29,0,0
+1777181997679,16,Step 4: Verify Member,200,,LMS User Thread Group 1-15,text,true,,639,364,2,2,http://localhost:8080/api/members/15,16,0,0
+1777181997659,161,Step 1: Login,200,,LMS User Thread Group 1-16,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,160,0,1
+1777181997821,21,Step 3: Borrow Book,200,,LMS User Thread Group 1-16,text,true,,870,395,2,2,http://localhost:8080/api/borrow/16?memberId=16,20,0,0
+1777181997843,17,Step 4: Verify Member,200,,LMS User Thread Group 1-16,text,true,,639,364,2,2,http://localhost:8080/api/members/16,17,0,0
+1777181997843,146,Step 1: Login,200,,LMS User Thread Group 1-17,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,146,0,1
+1777181997990,22,Step 3: Borrow Book,200,,LMS User Thread Group 1-17,text,true,,870,395,1,1,http://localhost:8080/api/borrow/17?memberId=17,22,0,0
+1777181998013,15,Step 4: Verify Member,200,,LMS User Thread Group 1-17,text,true,,639,364,1,1,http://localhost:8080/api/members/17,14,0,0
+1777181998043,163,Step 1: Login,200,,LMS User Thread Group 1-18,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,161,0,2
+1777181998207,21,Step 3: Borrow Book,200,,LMS User Thread Group 1-18,text,true,,870,395,1,1,http://localhost:8080/api/borrow/18?memberId=18,21,0,0
+1777181998229,15,Step 4: Verify Member,200,,LMS User Thread Group 1-18,text,true,,639,364,2,2,http://localhost:8080/api/members/18,14,0,0
+1777181998242,171,Step 1: Login,200,,LMS User Thread Group 1-19,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,171,0,1
+1777181998414,25,Step 3: Borrow Book,200,,LMS User Thread Group 1-19,text,true,,870,395,1,1,http://localhost:8080/api/borrow/19?memberId=19,25,0,0
+1777181998440,14,Step 4: Verify Member,200,,LMS User Thread Group 1-19,text,true,,639,364,2,2,http://localhost:8080/api/members/19,14,0,0
+1777181998442,158,Step 1: Login,200,,LMS User Thread Group 1-20,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,157,0,1
+1777181998601,21,Step 3: Borrow Book,200,,LMS User Thread Group 1-20,text,true,,870,395,1,1,http://localhost:8080/api/borrow/20?memberId=20,21,0,0
+1777181998623,14,Step 4: Verify Member,200,,LMS User Thread Group 1-20,text,true,,639,364,1,1,http://localhost:8080/api/members/20,14,0,0
+1777181998642,163,Step 1: Login,200,,LMS User Thread Group 1-21,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,163,0,1
+1777181998806,19,Step 3: Borrow Book,200,,LMS User Thread Group 1-21,text,true,,870,395,1,1,http://localhost:8080/api/borrow/21?memberId=21,18,0,0
+1777181998826,13,Step 4: Verify Member,200,,LMS User Thread Group 1-21,text,true,,639,364,1,1,http://localhost:8080/api/members/21,13,0,0
+1777181998843,157,Step 1: Login,200,,LMS User Thread Group 1-22,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,157,0,1
+1777181999002,24,Step 3: Borrow Book,200,,LMS User Thread Group 1-22,text,true,,870,395,1,1,http://localhost:8080/api/borrow/22?memberId=22,23,0,0
+1777181999026,16,Step 4: Verify Member,200,,LMS User Thread Group 1-22,text,true,,639,364,1,1,http://localhost:8080/api/members/22,16,0,0
+1777181999045,159,Step 1: Login,200,,LMS User Thread Group 1-23,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,159,0,1
+1777181999206,20,Step 3: Borrow Book,200,,LMS User Thread Group 1-23,text,true,,870,395,1,1,http://localhost:8080/api/borrow/23?memberId=23,20,0,0
+1777181999227,13,Step 4: Verify Member,200,,LMS User Thread Group 1-23,text,true,,639,364,1,1,http://localhost:8080/api/members/23,13,0,0
+1777181999247,159,Step 1: Login,200,,LMS User Thread Group 1-24,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,159,0,1
+1777181999407,19,Step 3: Borrow Book,200,,LMS User Thread Group 1-24,text,true,,870,395,1,1,http://localhost:8080/api/borrow/24?memberId=24,18,0,0
+1777181999427,13,Step 4: Verify Member,200,,LMS User Thread Group 1-24,text,true,,639,364,1,1,http://localhost:8080/api/members/24,13,0,0
+1777181999444,157,Step 1: Login,200,,LMS User Thread Group 1-25,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,157,0,2
+1777181999602,21,Step 3: Borrow Book,200,,LMS User Thread Group 1-25,text,true,,870,395,1,1,http://localhost:8080/api/borrow/25?memberId=25,21,0,0
+1777181999625,13,Step 4: Verify Member,200,,LMS User Thread Group 1-25,text,true,,639,364,1,1,http://localhost:8080/api/members/25,13,0,0
+1777181999644,162,Step 1: Login,200,,LMS User Thread Group 1-26,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,162,0,2
+1777181999809,22,Step 3: Borrow Book,200,,LMS User Thread Group 1-26,text,true,,870,395,1,1,http://localhost:8080/api/borrow/26?memberId=26,22,0,0
+1777181999832,18,Step 4: Verify Member,200,,LMS User Thread Group 1-26,text,true,,639,364,2,2,http://localhost:8080/api/members/26,18,0,0
+1777181999845,159,Step 1: Login,200,,LMS User Thread Group 1-27,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,159,0,1
+1777182000008,18,Step 3: Borrow Book,200,,LMS User Thread Group 1-27,text,true,,870,395,1,1,http://localhost:8080/api/borrow/27?memberId=27,18,0,0
+1777182000027,13,Step 4: Verify Member,200,,LMS User Thread Group 1-27,text,true,,639,364,1,1,http://localhost:8080/api/members/27,13,0,0
+1777182000045,152,Step 1: Login,200,,LMS User Thread Group 1-28,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,152,0,2
+1777182000198,22,Step 3: Borrow Book,200,,LMS User Thread Group 1-28,text,true,,870,395,1,1,http://localhost:8080/api/borrow/28?memberId=28,21,0,0
+1777182000220,14,Step 4: Verify Member,200,,LMS User Thread Group 1-28,text,true,,639,364,1,1,http://localhost:8080/api/members/28,14,0,0
+1777182000246,161,Step 1: Login,200,,LMS User Thread Group 1-29,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,161,0,3
+1777182000409,24,Step 3: Borrow Book,200,,LMS User Thread Group 1-29,text,true,,870,395,1,1,http://localhost:8080/api/borrow/29?memberId=29,24,0,0
+1777182000435,16,Step 4: Verify Member,200,,LMS User Thread Group 1-29,text,true,,639,364,2,2,http://localhost:8080/api/members/29,16,0,0
+1777182000444,159,Step 1: Login,200,,LMS User Thread Group 1-30,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,159,0,2
+1777182000604,21,Step 3: Borrow Book,200,,LMS User Thread Group 1-30,text,true,,870,395,1,1,http://localhost:8080/api/borrow/30?memberId=30,21,0,0
+1777182000626,14,Step 4: Verify Member,200,,LMS User Thread Group 1-30,text,true,,639,364,1,1,http://localhost:8080/api/members/30,14,0,0
+1777182000642,158,Step 1: Login,200,,LMS User Thread Group 1-31,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,158,0,2
+1777182000801,23,Step 3: Borrow Book,200,,LMS User Thread Group 1-31,text,true,,870,395,1,1,http://localhost:8080/api/borrow/31?memberId=31,23,0,0
+1777182000825,13,Step 4: Verify Member,200,,LMS User Thread Group 1-31,text,true,,639,364,1,1,http://localhost:8080/api/members/31,12,0,0
+1777182000839,164,Step 1: Login,200,,LMS User Thread Group 1-32,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,164,0,2
+1777182001005,19,Step 3: Borrow Book,200,,LMS User Thread Group 1-32,text,true,,870,395,1,1,http://localhost:8080/api/borrow/32?memberId=32,19,0,0
+1777182001025,16,Step 4: Verify Member,200,,LMS User Thread Group 1-32,text,true,,639,364,2,2,http://localhost:8080/api/members/32,16,0,0
+1777182001040,161,Step 1: Login,200,,LMS User Thread Group 1-33,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,161,0,2
+1777182001202,25,Step 3: Borrow Book,200,,LMS User Thread Group 1-33,text,true,,870,395,1,1,http://localhost:8080/api/borrow/33?memberId=33,25,0,0
+1777182001228,14,Step 4: Verify Member,200,,LMS User Thread Group 1-33,text,true,,639,364,2,2,http://localhost:8080/api/members/33,14,0,0
+1777182001238,159,Step 1: Login,200,,LMS User Thread Group 1-34,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,158,0,1
+1777182001397,17,Step 3: Borrow Book,200,,LMS User Thread Group 1-34,text,true,,870,395,1,1,http://localhost:8080/api/borrow/34?memberId=34,17,0,0
+1777182001415,14,Step 4: Verify Member,200,,LMS User Thread Group 1-34,text,true,,639,364,1,1,http://localhost:8080/api/members/34,13,0,0
+1777182001435,158,Step 1: Login,200,,LMS User Thread Group 1-35,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,158,0,1
+1777182001594,17,Step 3: Borrow Book,200,,LMS User Thread Group 1-35,text,true,,870,395,1,1,http://localhost:8080/api/borrow/35?memberId=35,17,0,0
+1777182001611,13,Step 4: Verify Member,200,,LMS User Thread Group 1-35,text,true,,639,364,1,1,http://localhost:8080/api/members/35,12,0,0
+1777182001635,175,Step 1: Login,200,,LMS User Thread Group 1-36,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,175,0,1
+1777182001811,20,Step 3: Borrow Book,200,,LMS User Thread Group 1-36,text,true,,870,395,1,1,http://localhost:8080/api/borrow/36?memberId=36,20,0,0
+1777182001832,15,Step 4: Verify Member,200,,LMS User Thread Group 1-36,text,true,,639,364,2,2,http://localhost:8080/api/members/36,15,0,0
+1777182001837,168,Step 1: Login,200,,LMS User Thread Group 1-37,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,168,0,2
+1777182002006,21,Step 3: Borrow Book,200,,LMS User Thread Group 1-37,text,true,,870,395,2,2,http://localhost:8080/api/borrow/37?memberId=37,21,0,0
+1777182002027,13,Step 4: Verify Member,200,,LMS User Thread Group 1-37,text,true,,639,364,2,2,http://localhost:8080/api/members/37,13,0,0
+1777182002027,170,Step 1: Login,200,,LMS User Thread Group 1-38,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,170,0,2
+1777182002198,19,Step 3: Borrow Book,200,,LMS User Thread Group 1-38,text,true,,870,395,1,1,http://localhost:8080/api/borrow/38?memberId=38,19,0,0
+1777182002218,12,Step 4: Verify Member,200,,LMS User Thread Group 1-38,text,true,,639,364,2,2,http://localhost:8080/api/members/38,12,0,0
+1777182002226,157,Step 1: Login,200,,LMS User Thread Group 1-39,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,156,0,1
+1777182002384,17,Step 3: Borrow Book,200,,LMS User Thread Group 1-39,text,true,,870,395,1,1,http://localhost:8080/api/borrow/39?memberId=39,17,0,0
+1777182002401,11,Step 4: Verify Member,200,,LMS User Thread Group 1-39,text,true,,639,364,1,1,http://localhost:8080/api/members/39,11,0,0
+1777182002439,165,Step 1: Login,200,,LMS User Thread Group 1-40,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,165,0,1
+1777182002605,24,Step 3: Borrow Book,200,,LMS User Thread Group 1-40,text,true,,870,395,2,2,http://localhost:8080/api/borrow/40?memberId=40,24,0,0
+1777182002630,13,Step 4: Verify Member,200,,LMS User Thread Group 1-40,text,true,,639,364,2,2,http://localhost:8080/api/members/40,13,0,0
+1777182002623,163,Step 1: Login,200,,LMS User Thread Group 1-41,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,163,0,2
+1777182002787,20,Step 3: Borrow Book,200,,LMS User Thread Group 1-41,text,true,,870,395,1,1,http://localhost:8080/api/borrow/41?memberId=41,20,0,0
+1777182002808,21,Step 4: Verify Member,200,,LMS User Thread Group 1-41,text,true,,639,364,2,2,http://localhost:8080/api/members/41,21,0,0
+1777182002827,159,Step 1: Login,200,,LMS User Thread Group 1-42,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,158,0,2
+1777182002986,19,Step 3: Borrow Book,200,,LMS User Thread Group 1-42,text,true,,870,395,1,1,http://localhost:8080/api/borrow/42?memberId=42,18,0,0
+1777182003005,12,Step 4: Verify Member,200,,LMS User Thread Group 1-42,text,true,,639,364,1,1,http://localhost:8080/api/members/42,12,0,0
+1777182003027,156,Step 1: Login,200,,LMS User Thread Group 1-43,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,156,0,1
+1777182003185,32,Step 3: Borrow Book,200,,LMS User Thread Group 1-43,text,true,,870,395,1,1,http://localhost:8080/api/borrow/43?memberId=43,31,0,0
+1777182003219,23,Step 4: Verify Member,200,,LMS User Thread Group 1-43,text,true,,639,364,2,2,http://localhost:8080/api/members/43,23,0,0
+1777182003230,160,Step 1: Login,200,,LMS User Thread Group 1-44,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,160,0,2
+1777182003391,19,Step 3: Borrow Book,200,,LMS User Thread Group 1-44,text,true,,870,395,1,1,http://localhost:8080/api/borrow/44?memberId=44,19,0,0
+1777182003411,12,Step 4: Verify Member,200,,LMS User Thread Group 1-44,text,true,,639,364,1,1,http://localhost:8080/api/members/44,12,0,0
+1777182003433,157,Step 1: Login,200,,LMS User Thread Group 1-45,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,157,0,1
+1777182003591,21,Step 3: Borrow Book,200,,LMS User Thread Group 1-45,text,true,,870,395,1,1,http://localhost:8080/api/borrow/45?memberId=45,21,0,0
+1777182003613,15,Step 4: Verify Member,200,,LMS User Thread Group 1-45,text,true,,639,364,1,1,http://localhost:8080/api/members/45,14,0,0
+1777182003633,152,Step 1: Login,200,,LMS User Thread Group 1-46,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,151,0,2
+1777182003786,19,Step 3: Borrow Book,200,,LMS User Thread Group 1-46,text,true,,870,395,1,1,http://localhost:8080/api/borrow/46?memberId=46,19,0,0
+1777182003806,13,Step 4: Verify Member,200,,LMS User Thread Group 1-46,text,true,,639,364,1,1,http://localhost:8080/api/members/46,13,0,0
+1777182003833,157,Step 1: Login,200,,LMS User Thread Group 1-47,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,157,0,2
+1777182003991,16,Step 3: Borrow Book,200,,LMS User Thread Group 1-47,text,true,,870,395,1,1,http://localhost:8080/api/borrow/47?memberId=47,16,0,0
+1777182004008,12,Step 4: Verify Member,200,,LMS User Thread Group 1-47,text,true,,639,364,2,2,http://localhost:8080/api/members/47,12,0,0
+1777182004020,156,Step 1: Login,200,,LMS User Thread Group 1-48,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,155,0,1
+1777182004177,15,Step 3: Borrow Book,200,,LMS User Thread Group 1-48,text,true,,870,395,1,1,http://localhost:8080/api/borrow/48?memberId=48,14,0,0
+1777182004192,12,Step 4: Verify Member,200,,LMS User Thread Group 1-48,text,true,,639,364,1,1,http://localhost:8080/api/members/48,12,0,0
+1777182004223,145,Step 1: Login,200,,LMS User Thread Group 1-49,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,145,0,1
+1777182004369,15,Step 3: Borrow Book,200,,LMS User Thread Group 1-49,text,true,,870,395,1,1,http://localhost:8080/api/borrow/49?memberId=49,15,0,0
+1777182004385,11,Step 4: Verify Member,200,,LMS User Thread Group 1-49,text,true,,639,364,1,1,http://localhost:8080/api/members/49,11,0,0
+1777182004424,151,Step 1: Login,200,,LMS User Thread Group 1-50,text,true,,676,234,1,1,http://localhost:8080/api/auth/login,151,0,1
+1777182004576,16,Step 3: Borrow Book,200,,LMS User Thread Group 1-50,text,true,,870,395,1,1,http://localhost:8080/api/borrow/50?memberId=50,16,0,0
+1777182004593,11,Step 4: Verify Member,200,,LMS User Thread Group 1-50,text,true,,639,364,1,1,http://localhost:8080/api/members/50,11,0,0
